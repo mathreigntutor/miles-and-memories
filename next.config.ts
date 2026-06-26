@@ -7,12 +7,7 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  images: {
-    unoptimized: true,
-  },
-  experimental: {
-    serverComponentsExternalPackages: ['fs', 'path'],
-  },
+  output: 'standalone',
 };
 
 export default nextConfig;
